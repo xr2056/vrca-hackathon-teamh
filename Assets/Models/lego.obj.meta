@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 4aa377f86cff64e599041d09bfbf55cf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LEGO_0
+    100004: LEGO_1
+    100006: LEGO_2
+    100008: LEGO_3
+    100010: LEGO_5
+    100012: LEGO_6
+    100014: LEGO_7
+    100016: LEGO_8
+    400000: //RootNode
+    400002: LEGO_0
+    400004: LEGO_1
+    400006: LEGO_2
+    400008: LEGO_3
+    400010: LEGO_5
+    400012: LEGO_6
+    400014: LEGO_7
+    400016: LEGO_8
+    2100000: LEGO_0Mat
+    2100002: LEGO_1Mat
+    2100004: LEGO_2Mat
+    2100006: LEGO_3Mat
+    2100008: LEGO_5Mat
+    2100010: LEGO_6Mat
+    2100012: LEGO_7Mat
+    2100014: LEGO_8Mat
+    2300000: LEGO_0
+    2300002: LEGO_1
+    2300004: LEGO_2
+    2300006: LEGO_3
+    2300008: LEGO_5
+    2300010: LEGO_6
+    2300012: LEGO_7
+    2300014: LEGO_8
+    3300000: LEGO_0
+    3300002: LEGO_1
+    3300004: LEGO_2
+    3300006: LEGO_3
+    3300008: LEGO_5
+    3300010: LEGO_6
+    3300012: LEGO_7
+    3300014: LEGO_8
+    4300000: LEGO_0
+    4300002: LEGO_1
+    4300004: LEGO_2
+    4300006: LEGO_3
+    4300008: LEGO_5
+    4300010: LEGO_6
+    4300012: LEGO_7
+    4300014: LEGO_8
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0005
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
