@@ -33,6 +33,8 @@ namespace ConveyorSamples
         private float _currentSpeed = 0;
         private List<Rigidbody> _rigidbodies = new List<Rigidbody>();
 
+        int count = 0;
+
         void Start()
         {
             //方向は正規化しておく
@@ -50,11 +52,14 @@ namespace ConveyorSamples
             {
                 //物体の移動速度のベルトコンベア方向の成分だけを取り出す
                 var objectSpeed = Vector3.Dot(r.velocity, DriveDirection);
+                var objectSpeed2 = 1 - objectSpeed / TargetDriveSpeed;
 
                 //目標値以下なら加速する
                 if (objectSpeed < Mathf.Abs(TargetDriveSpeed))
                 {
-                    r.AddForce(DriveDirection * _forcePower, ForceMode.Acceleration);
+                    r.AddForce(DriveDirection * _forcePower * objectSpeed2, ForceMode.Acceleration);
+                    //加速される回数をカウント
+                    //Debug.Log("name is " + r.name + " forceCount is " + ++count);
                 }
             }
         }
