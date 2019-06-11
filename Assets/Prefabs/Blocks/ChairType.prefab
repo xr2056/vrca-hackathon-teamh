@@ -28,6 +28,8 @@ GameObject:
   - component: {fileID: 65768356366323266}
   - component: {fileID: 65839159405766266}
   - component: {fileID: 65989600434360768}
+  - component: {fileID: 114527111295513236}
+  - component: {fileID: 114269063781963966}
   m_Layer: 0
   m_Name: ChairType
   m_TagString: Untagged
@@ -177,3 +179,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0017040253, y: 0.009649554, z: 0.0096}
   m_Center: {x: 0.0040024417, y: 0.0039752247, z: 0}
+--- !u!114 &114269063781963966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407688522777282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41926a346d4905549a08f5b3ff568dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114527111295513236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407688522777282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
