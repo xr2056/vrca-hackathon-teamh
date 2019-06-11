@@ -7,7 +7,7 @@ using System.Linq;
 public class Score : MonoBehaviour
 {
 
-    public GameObject counttest;
+    public GameObject count;
     public LayerMask m_LayerMask;
     float[] scores = new float[20];
 
@@ -44,6 +44,6 @@ public class Score : MonoBehaviour
     void MaxScore()
     {
         float results = scores.Max();
-        counttest.GetComponent<TextMesh>().text = results.ToString("F2");
+        count.GetComponent<TextMesh>().text = results.ToString("F2");
     }
 }
