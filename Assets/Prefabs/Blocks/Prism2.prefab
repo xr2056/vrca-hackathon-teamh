@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 64932405260005892}
   - component: {fileID: 114486281010534598}
   - component: {fileID: 114341153319215636}
+  - component: {fileID: 114664063420294602}
   m_Layer: 0
   m_Name: Prism2
   m_TagString: Untagged
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1188114642381352}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.04994356, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
@@ -143,3 +144,14 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &114664063420294602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188114642381352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7793c4f3a22646efbe91ab29392773d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

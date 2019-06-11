@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 64779913073945804}
   - component: {fileID: 114108120438461978}
   - component: {fileID: 114332169584471478}
+  - component: {fileID: 114117667669832856}
   m_Layer: 0
   m_Name: Frustum
   m_TagString: Untagged
@@ -39,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1105499644349180}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.08492218, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
@@ -132,6 +133,17 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &114117667669832856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105499644349180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7793c4f3a22646efbe91ab29392773d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114332169584471478
 MonoBehaviour:
   m_ObjectHideFlags: 1
