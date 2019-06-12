@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StartButtonSC : MonoBehaviour {
 
-void OnTriggerEnter(Collider col)
+    void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "hand")
         {
