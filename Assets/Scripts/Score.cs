@@ -9,6 +9,7 @@ public class Score : MonoBehaviour
 
     public GameObject count;
     public GameObject highScoreText;
+    public GameObject result;
     public LayerMask m_LayerMask;
     float[] scores = new float[20];
     float score;
@@ -58,6 +59,7 @@ public class Score : MonoBehaviour
     {
         float score = scores.Max();
         count.GetComponent<TextMesh>().text = score.ToString("F2");
+        result.GetComponent<TextMesh>().text = score.ToString("F2");
 
         if (highScore < score)
         {
