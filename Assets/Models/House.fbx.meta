@@ -130,7 +130,77 @@ ModelImporter:
     4300040: Cube.004
     4300042: Plane
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar
+    second: {fileID: 2100000, guid: c91ddcbb90012411386bfd648e2d8ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceilings
+    second: {fileID: 2100000, guid: ced4b937e00844aba9acb99168468070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door Handles
+    second: {fileID: 2100000, guid: 1e287b373a2a54965abcea625050a934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doors
+    second: {fileID: 2100000, guid: 4fdeee2c452ea41d396237ec1a6c087e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edges
+    second: {fileID: 2100000, guid: c997d9f36440e4fb8881fbf79cb4d3d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 7c5410025d4a9493194d935def30dce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 4b25340ab741a4f70ba8a4c0eb6831bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: e9efba2bba5494f7790db9d6dbe5458a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Switch
+    second: {fileID: 2100000, guid: e429fa59696574a54b7bffb8c232274c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 043b0ae9acb174becb26c6a3d5ab7cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof
+    second: {fileID: 2100000, guid: 5bf90a67d79a9499789ad6412bd3553f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sliding Glass Door
+    second: {fileID: 2100000, guid: 8de5e17af4d514e09bddb3b95cede0d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls
+    second: {fileID: 2100000, guid: 2fc5e5e8ab2b748e88331aabca0df5b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Frames
+    second: {fileID: 2100000, guid: d7180ff60aa4a492e83eaef9856efe99, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
