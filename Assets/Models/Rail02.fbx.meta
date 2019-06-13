@@ -16,7 +16,12 @@ ModelImporter:
     3300002: Roller
     4300000: Roller
     4300002: Pillar
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: railMat
+    second: {fileID: 2100000, guid: 00df700a8cf8d41789203ae906b22428, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
