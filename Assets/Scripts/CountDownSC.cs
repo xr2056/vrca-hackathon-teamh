@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CountDownSC : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class CountDownSC : MonoBehaviour
         _textCountdown.text = "";
         StartCoroutine(CountdownCoroutine());
     }
-
+    
     IEnumerator CountdownCoroutine()
     {
         //_imageMask.gameObject.SetActive(true);
